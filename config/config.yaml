@@ -25,7 +25,7 @@ crawler:
 #   • 适用场景：避免重复信息干扰
 
 report:
-  mode: "daily" # 可选: "daily"|"incremental"|"current"
+  mode: "current" # 可选: "daily"|"incremental"|"current"
   rank_threshold: 5 # 排名高亮阈值
 
 notification:
@@ -50,6 +50,10 @@ weight:
 platforms:
   - id: "toutiao"
     name: "今日头条"
+  - id: "bilibili"
+    name: "bilibili"
+  - id: "linuxdo"
+    name: "linuxdo"     
   - id: "baidu"
     name: "百度热搜"
   - id: "wallstreetcn-hot"
