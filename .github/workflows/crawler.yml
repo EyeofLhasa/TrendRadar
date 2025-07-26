@@ -1,6 +1,6 @@
 name: Hot News Crawler
 
-on:
+off:
   schedule:
     - cron: "*/30 * * * *" # 每 30 分钟运行一次
   workflow_dispatch:
